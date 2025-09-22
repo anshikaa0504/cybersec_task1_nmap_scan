@@ -1,0 +1,45 @@
+# Nmap 7.98 scan initiated Mon Sep 22 12:43:02 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sS -oN nmap_scan.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.031s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT    STATE    SERVICE
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 04:20:84:AF:8D:19 (zte)
+
+Nmap scan report for 192.168.1.54
+Host is up (0.031s latency).
+All 1000 scanned ports on 192.168.1.54 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: D6:A8:D6:4E:92:03 (Unknown)
+
+Nmap scan report for 192.168.1.75 (192.168.1.75)
+Host is up (0.0096s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+8008/tcp open  http
+8009/tcp open  ajp13
+8443/tcp open  https-alt
+9000/tcp open  cslistener
+MAC Address: EC:93:7D:38:40:1B (Vantiva USA)
+
+Nmap scan report for 192.168.1.240 (192.168.1.240)
+Host is up (0.018s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT    STATE SERVICE
+80/tcp  open  http
+554/tcp open  rtsp
+MAC Address: 28:18:FD:0C:FE:D2 (Aditya Infotech)
+
+Nmap scan report for 192.168.1.126
+Host is up (0.00027s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5357/tcp open  wsdapi
+
+# Nmap done at Mon Sep 22 12:43:11 2025 -- 256 IP addresses (5 hosts up) scanned in 9.95 seconds
